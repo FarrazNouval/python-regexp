@@ -1,0 +1,22 @@
+meta characters
+. ---> semua character kecuali newline
+^ ---> dimulai dengan ==> '^hello'
+$ ---> diakhiri dengan ==> 'hello$'
+* ---> terjadi 0 kali atau lebih ===> 'hello*'
++ ---> terjadi minimal 1 kali ===> 'hello+'
+{} --> spesifikasi jumlah kemunculan ==> 'hello{3}'
+[] --> set karakter ==> '[a-m]'
+\ ---> special sequence ==> '\d'
+| ---> atau 'hello|halo'
+() --> capture and group
+? ---> opsional
+
+special characters
+\d ---> match semua angka
+\D ---> match semua yang non angka
+\s ---> match semua jenis whitespace
+\S ---> match semua yang non whitespace
+\w ---> match semua alphanumeric
+\W ---> match semua non-alphanumeric
+\b ---> match karakter yang cocok, diawal atau akhir teks atau whitespace
+\B ---> match karakter yang cocok, bukan diawal atau akhir teks atau whitespace
