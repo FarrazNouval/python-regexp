@@ -5,8 +5,8 @@ text = 'Residence dejection AGREEMENT'
 pattern = re.compile(r'[A-Z ]')
 matches = pattern.finditer(text)
 
-# for i in matches:
-#     print(i)
+for i in matches:
+        print(i)
 
 # advanced
 text_2 = '''Domestic confined any but son bachelor advanced remember. 
